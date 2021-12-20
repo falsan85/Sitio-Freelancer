@@ -190,3 +190,30 @@ font-weight: normal;
     /* Si tienes un cuadrado y le pones esquinas del 50% 
     va a hacer un círculo */
 }   
+
+/* Contacto */
+
+.formulario {
+background-color: var(--gris);
+width: min( 60rem, 100%); /* Utiliza el valor más pequeño */
+margin: 0 auto; 
+padding: 2rem;
+border-radius: 1rem;
+
+/* Elemento de tipo block y si el padre no tiene un 'display: flex'
+el 'margin': 0 auto' lo va a centrar horizontalmente. 
+Para el resto utilizaremos 'justify-content'*/
+}
+
+.formulario fieldset {
+    border: none;
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primario);
+}
